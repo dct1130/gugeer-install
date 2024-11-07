@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gugeer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: #f6f6f6;
+            -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+        }
+
+
+        .header {
+            height: 140px;
+            background: linear-gradient(to bottom, #2cbef5, #2a87ea);
+        }
+
+        .main {
+            margin-top: -70px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .logo {
+            width: 100%;
+            height: 100%;
+            border-radius: 24px;
+            box-shadow: 0 0 10px -2px #f36d15;
+        }
+
+        .logo-box {
+            width: 100px;
+            height: 100px;
+            background: white;
+            padding: 10px;
+            border-radius: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, .08);
+        }
+
+        .title {
+            font-size: 20px;
+            margin-top: 10px;
+            color: #333;
+        }
+
+        .desc {
+            color: #999;
+            font-size: 14px;
+            margin-top: 8px;
+        }
+
+        .btns {
+            display: flex;
+        }
+
+        .btn {
+            width: 120px;
+            height: 40px;
+            line-height: 40px;
+            font-size: 16px;
+            color: white;
+            background: #2a87ea;
+            text-align: center;
+            border: none;
+            border-radius: 0 20px 20px 0;
+            text-decoration: none;
+        }
+
+        .ios {
+            background: #f36d15;
+            border-radius: 20px 0 0 20px;
+        }
+
+        .tips {
+            color: #999;
+            font-size: 14px;
+            margin: 30px 0 14px;
+        }
+    </style>
+
+    </style>
+</head>
+
+<body>
+    <div class="header"></div>
+    <div class="main">
+        <div class="logo-box">
+            <img class="logo" src="./logo.png" alt="">
+        </div>
+        <div class="title">Gugeer</div>
+        <div class="desc">版本：1.0.0</div>
+        <div class="desc">更新时间：2024-11-06</div>
+        <div class="tips">温馨提示：根据对应平台选择安装</div>
+        <div class="btns">
+            <a href="itms-services://?action=download-manifest&url=https://mtest.sinosafe.com.cn/eb-web/apptest/gugeer/gugeer.plish"
+                class="btn ios">IOS</a>
+            <a href="javascript:void(0)" class="btn">Android</a>
+        </div>
+    </div>
+</body>
+
+</html>
