@@ -1,49 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-    <key>items</key>
-    <array>
+  <dict>
+      <key>items</key>
+      <array>
         <dict>
-            <key>assets</key>
-            <array>
-                <dict>
-                    <key>kind</key>
-                    <string>software-package</string>
-                    <key>url</key>
-                    <string>https://mp-07329bc7-534f-4c1d-a9ac-778528817f40.cdn.bspapp.com/cloudstorage/gugeer.ipa</string>
-                </dict>
-                <dict>
-                    <key>kind</key>
-                    <string>full-size-image</string>
-                    <key>needs-shine</key>
-                    <true/>
-                    <key>url</key>
-                    <string>https://dct1130.github.io/gugeer-install/logo.png</string>
-                </dict>
-                <dict>
-                    <key>kind</key>
-                    <string>display-image</string>
-                    <key>needs-shine</key>
-                    <true/>
-                    <key>url</key>
-                    <string>https://dct1130.github.io/gugeer-install/logo.png</string>
-                </dict>
-            </array>
-            <key>metadata</key>
-            <dict>
-                <key>bundle-identifier</key>
-                <string>com.gugger.motion</string>
-                <key>bundle-version</key>
-                <string>1.0.0</string>
-                <key>kind</key>
-                <string>software</string>
-                <key>subtitle</key>
-                <string>install app</string>
-                <key>title</key>
-                <string>gugeer</string>
-            </dict>
+           <key>assets</key>
+           <array>
+             <dict>
+               <key>kind</key>
+               <string>software-package</string>
+               <key>url</key>
+               <string><![CDATA[https://mp-07329bc7-534f-4c1d-a9ac-778528817f40.cdn.bspapp.com/cloudstorage/gugeer.ipa]]></string>
+             </dict>
+             <dict>
+               <key>kind</key>
+               <string>display-image</string>
+               <key>needs-shine</key>
+               <integer>0</integer>
+               <key>url</key>
+               <string><![CDATA[https://dct1130.github.io/gugeer-install/logo.png]]></string>
+             </dict>
+             <dict>
+               <key>kind</key>
+               <string>full-size-image</string>
+               <key>needs-shine</key>
+               <true/>
+               <key>url</key>
+               <string><![CDATA[https://dct1130.github.io/gugeer-install/logo.png]]></string>
+             </dict>
+           </array>
+           <key>metadata</key>
+           <dict>
+             <key>bundle-identifier</key>
+             <string>com.gugeer.motion</string>
+             <key>bundle-version</key>
+             <string><![CDATA[1.0.0]]></string>
+             <key>kind</key>
+             <string>software</string>
+             <key>title</key>
+             <string><![CDATA[gugeer]]></string>			 
+           </dict>
         </dict>
-    </array>
-</dict>
+      </array>
+  </dict>
 </plist>
