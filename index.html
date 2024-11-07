@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>gugeer</title>
     <style>
         * {
@@ -84,6 +84,22 @@
             font-size: 14px;
             margin: 30px 0 14px;
         }
+
+        .footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 15px;
+            margin-top: 40px;
+            color: #999;
+        }
+
+        .qrcode {
+            width: 140px;
+            margin-top: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, .08)
+        }
     </style>
 
     </style>
@@ -104,6 +120,10 @@
                 class="btn ios">IOS</a>
             <a href="javascript:void(0)" class="btn">Android</a>
         </div>
+    </div>
+    <div class="footer">
+        <div class="scan">扫描二维码下载</div>
+        <img class="qrcode" src="./qrcode.png" alt=""></img>
     </div>
 </body>
 
